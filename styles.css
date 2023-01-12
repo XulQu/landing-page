@@ -1,0 +1,292 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* TOP NAV */
+.nav-container {
+    display:flex;
+    flex:1;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #1F2937;
+    color:white;
+    margin-bottom:-10px;
+}
+
+.item-1 {
+    padding:10px 10px;
+    margin-left:185px;
+}
+
+.drop-down-nav {
+    word-spacing: 10px;
+    margin-right:185px;
+}
+
+/* Section 1 */
+
+.hero-container {
+    background-color:#1F2937 ;
+    height:500px;
+    margin-top:20px;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.card-1 {
+
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    width:50%;
+    color:white;
+    margin-bottom:50px;
+}
+
+.sub-heading-item-1 {
+    font-weight: 900;
+    margin-left:185px;
+    font-size:48px;
+    margin-bottom:-40px;
+    margin-top:-40px;
+    line-height: 70px;
+    flex-wrap:wrap;
+    width:45%;
+}
+
+.para-item-1 {
+    margin-top:-20px;
+    margin-left:185px;
+    flex-wrap:wrap;
+    width:360px;   
+}
+
+.sign-up-item {
+    margin-top:10px;
+}
+
+.sign-up-item a:link {
+    font-size:20px;
+    margin-left:185px;
+    text-decoration: none;
+    color:white;
+    background-color: #3882F6;
+    padding:5px 30px;
+    border-radius:7px;
+
+}
+
+/* IMAGE Section */
+
+.card-2 {
+    background-color: #3882F6;
+    width: 38%;
+    height:250px;
+    margin-right:185px;
+    background-image: url(https://images.pexels.com/photos/5473952/pexels-photo-5473952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    border-radius:10px;
+
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+}
+.image-item-1 img {
+    width:200px;
+}
+
+/* IMAGE Section */
+
+.header-item-2 {
+    font-size:36px;
+    color:#1F2937;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.header-item-2 h1, p {
+    margin-top:40px;
+}
+
+.header-item-2 p {
+    font-size:20px;
+}
+
+.para-item-2 {
+    margin-top:-40px;
+}
+
+/* Card Section  */
+.top-4-items {
+    background-color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:600px;
+    margin-left:185px;
+    margin-right:185px;
+}
+
+
+.profile-image-1 {
+    border:3px solid #3882F6;
+    border-radius:10px;
+    width:250px;
+    height:250px;
+}
+
+.profile-image-2 {
+    border:3px solid #3882F6;
+    border-radius:10px;
+    width:250px;
+    height:250px;
+}
+
+.profile-image-3 {
+    border:3px solid #3882F6;
+    border-radius:10px;
+    width:250px;
+    height:250px;
+}
+
+.profile-image-4 {
+    border:3px solid #3882F6;
+    border-radius:10px;
+    width:250px;
+    height:250px;
+}
+
+.card-para {
+    width:250px;
+    flex-wrap:wrap;
+    margin-top:-30px;
+    margin-bottom:60px;
+}
+
+.description-item-1, .description-item-2, .description-item-3, .description-item-4 {
+    font-size:24px;
+    font-weight:bold;
+    text-align: center;
+    background-color: #1F2937;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+/* Actual Photos */
+
+.profile-image-1 {
+    background-image: url(https://fractalenlightenment.com/wp-content/uploads/2013/05/carl-jung-mandala.png);
+    width:250px;
+    height:250px;
+    object-fit:scale-down;
+    border-radius:10px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    background-size:270px;
+    
+}
+
+.profile-image-2 {
+    background-image: url(https://cdn.britannica.com/21/129221-050-BEFCFA49/Joseph-Campbell.jpg);
+    width:250px;
+    height:250px;
+    object-fit:scale-down;
+    border-radius:10px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    background-size:270px;
+    
+}
+
+.profile-image-3 {
+    background-image: url(https://i1.sndcdn.com/avatars-000002201171-hstpxh-t500x500.jpg);
+    width:250px;
+    height:250px;
+    object-fit:scale-down;
+    border-radius:10px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    background-size:270px;
+    
+}
+
+.profile-image-4 {
+    background-image: url(https://yt3.ggpht.com/ytc/AMLnZu8kkbbS2_9N-rxzsmRjhYnZuhmEIjVsfqTksAMA=s900-c-k-c0x00ffffff-no-rj);
+    width:250px;
+    height:250px;
+    object-fit:scale-down;
+    border-radius:10px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    background-size:270px;
+    
+}
+
+/* quote section */
+.quote-item {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-item h3 {
+    font-size:120px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom:220px;
+    color:#1F2937;
+}
+#quote-2 {
+    font-size:120px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom:220px;
+}
+
+.quote-item p {
+    color:#1F2937;
+    line-height:40px;
+    width:50%;
+    font-size:36px;
+    font-weight:light-italic;
+    margin-right:-50px;
+    
+}
+
+.quote-item {
+    background-color: #E5E7EB;
+    height:500px;
+}
+
+/* Call to action */
+
+.call-to-action {
+    background-color:white;;
+    height:500px;
+}
+
+
+/* Footer Section */
+
+.footer {
+    background-color: #1F2937;
+    color:white;
+    height:75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:20px;
+}
+
+.footer-text {
+
+}
