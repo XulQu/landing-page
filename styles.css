@@ -20,21 +20,24 @@
 .drop-down-nav {
     word-spacing: 10px;
     margin-right:185px;
+    color:white;
+}
+.drop-down-nav ,a:visited  {
+    text-decoration: none;
+    color:white;
+}
+ .drop-down-nav ,a:link {
+    text-decoration: none;
+    color:white;
 }
 
-a:link, .drop-down-nav  {
+.drop-down-nav ,a:hover  {
     text-decoration: none;
-    color:white;
+    color:#3882F6;
 }
-a:hover, .drop-down-nav  {
-    text-decoration: none;
-    color:white;
-}
-a:visited, .drop-down-nav  {
-    text-decoration: none;
-    color:white;
-}
-a:active, .drop-down-nav  {
+
+
+.drop-down-nav ,a:active  {
     text-decoration: none;
     color:white;
 }
@@ -83,9 +86,30 @@ a:active, .drop-down-nav  {
 
 .sign-up-item {
     margin-top:10px;
+    transition: .2s ease-in-out 0s;
 }
 
-.sign-up-item a:link {
+#sign-up-1 a:link, .sign-up-item a:link  {
+    font-size:20px;
+    margin-left:0px;
+    text-decoration: none;
+    color:white;
+    background-color: #3882F6;
+    padding:5px 30px;
+    border-radius:7px;
+}
+
+#sign-up-1 a:hover, .sign-up-item  {
+    font-size:20px;
+    text-decoration: none;
+    color:white;
+    background-color: #3882F6;
+    padding:5px 35px;
+    border-radius:7px;
+
+}
+
+#sign-up-1 a:visited, .sign-up-item  {
     font-size:20px;
     margin-left:185px;
     text-decoration: none;
@@ -96,29 +120,7 @@ a:active, .drop-down-nav  {
 
 }
 
-a:hover .sign-up-item  {
-    font-size:20px;
-    margin-left:185px;
-    text-decoration: none;
-    color:white;
-    background-color: #3882F6;
-    padding:5px 30px;
-    border-radius:7px;
-
-}
-
-a:visited .sign-up-item  {
-    font-size:20px;
-    margin-left:185px;
-    text-decoration: none;
-    color:white;
-    background-color: #3882F6;
-    padding:5px 30px;
-    border-radius:7px;
-
-}
-
-a:active .sign-up-item  {
+#sign-up-1 a:active, .sign-up-item  {
     font-size:20px;
     margin-left:185px;
     text-decoration: none;
@@ -226,6 +228,7 @@ div.header-item-2 {
     flex-wrap:wrap;
     margin-top:10px;
     margin-bottom:60px;
+    height:90px;
 }
 
 .card-para p {
@@ -390,6 +393,18 @@ sub-para-call-1 ,p {
     
 }
 
+#bottom-button a:hover, .button-2 {
+
+    font-size:20px;
+    margin-left:0;
+    text-decoration: none;
+    color:white;
+    background-color: #3882F6;
+    padding:5px 35px;
+    border-radius:7px;
+    
+}
+
 /* Footer Section */
 
 .footer {
@@ -399,10 +414,11 @@ sub-para-call-1 ,p {
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-bottom:20px;
+    padding-bottom:0px;
     padding-top: 20px;
+    
 }
 
-.footer-text {
-
+#footer {
+    font-size:15px;
 }
